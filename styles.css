@@ -1,0 +1,204 @@
+/* ELEMENTS */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+a {
+  color: #dbe2ef;
+}
+
+a:hover {
+  color: #3f72af;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* BPM DESIGN */
+
+.bpm {
+  font-family: 'Yellowtail';
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-container {
+  background-color: #112d4e;
+  color: #dbe2ef;
+}
+
+.neutral-container {
+  background-color: #dbe2ef;
+  color: #112d4e;
+}
+
+/* SECTION TITLE */
+
+.section-title {
+  font-size: 3rem;
+  padding-top: 5%;
+}
+
+/* TITLE SECTION */
+.container-fluid {
+  padding: 0;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.name {
+  font-family: "Yellowtail";
+  font-size: 4.5rem;
+  font-weight: 900;
+  padding-top: 10%;
+}
+
+.nav-bar {
+  padding-right: 5%;
+  padding-top: 3.5%;
+}
+
+.nav-list {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-list-item {
+  display: inline;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0% 1%;
+}
+
+.row {
+  margin: 0;
+}
+
+#title {
+  color: #dbe2ef;
+}
+
+.title-div {
+  background-image: url("images/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.title-label {
+  font-weight: 600;
+  padding: 15% 15% 7%;
+}
+
+/* BIO */
+
+.intro {
+  padding: 3% 25%;
+  margin-bottom: 0;
+}
+
+.profile {
+  width: 30%;
+}
+
+/* SERVICES */
+
+.develop-img {
+  border-radius: 100%;
+  float: right;
+  margin-left: 10%;
+  width: 25%;
+}
+
+.laptop-img {
+  border-radius: 100%;
+  float: left;
+  margin-right: 10%;
+  width: 25%;
+}
+
+.plan-img {
+  border-radius: 100%;
+  float: left;
+  margin-right: 10%;
+  width: 25%;
+}
+
+.service-descript {
+  font-size: 1.25rem;
+}
+
+.service-row {
+  margin: 10% auto 15%;
+  text-align: left;
+  width: 50%;
+}
+
+/* CTA */
+
+.btn {
+  background: #112d4e;
+  background-image: -webkit-linear-gradient(top, #112d4e, #145374);
+  background-image: -moz-linear-gradient(top, #112d4e, #145374);
+  background-image: -ms-linear-gradient(top, #112d4e, #145374);
+  background-image: -o-linear-gradient(top, #112d4e, #145374);
+  background-image: linear-gradient(to bottom, #112d4e, #145374);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;;
+  color: #f9f7f7;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3f72af;
+  background-image: -webkit-linear-gradient(top, #3f72af, #5588a3);
+  background-image: -moz-linear-gradient(top, #3f72af, #5588a3);
+  background-image: -ms-linear-gradient(top, #3f72af, #5588a3);
+  background-image: -o-linear-gradient(top, #3f72af, #5588a3);
+  background-image: linear-gradient(to bottom, #3f72af, #5588a3);
+  text-decoration: none;
+}
+
+.cta-container {
+  margin: 5% 30% 3%;
+}
+
+.cta-descript {
+  font-size: 1.3rem;
+  padding-top: 3%;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 1%;
+}
+
+.footer-descript {
+  font-size: 0.8rem;
+  padding-top: 1%;
+}
+
+.footer-link {
+  padding: 0 1%;
+}
